@@ -19,7 +19,7 @@ echo_start(2, "About Us");
                     <div class="panel-heading">
                         <h3>Benjamin Chalmers</h3> </div>
                     <div class="panel-body">
-                        <p class="lead"><b>Founding member</b> and lead engineer.</p>
+                        <p class="lead"><b>Founding member</b> and Technical Director.</p>
                     </div>
                     <div class="panel-footer">
                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:ben@theodinproject.space">ben@theodinproject.space</a>
@@ -31,7 +31,7 @@ echo_start(2, "About Us");
                     <div class="panel-heading">
                         <h3>Alexande Wykes</h3> </div>
                     <div class="panel-body">
-                        <p class="lead"><b>Founding member</b> and Press manager.</p>
+                        <p class="lead"><b>Founding member</b> and Operators Director.</p>
                     </div>
                     <div class="panel-footer">
                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:alex@theodinproject.space">alex@theodinproject.space</a>
