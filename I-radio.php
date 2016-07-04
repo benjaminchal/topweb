@@ -6,10 +6,12 @@ echo_start(3, "ODIN-I Communications");
       <div class="page-header">
         <h1>Radio Communications for ODIN-I</h1>
       </div>
-        <p>High altitude balloons need a method to send information back down to earth. 
-        This is necessary for recovering the payload and forgetting, in real time, information such as pictures, humidity, and altitude. To achieve this we explored several methods of sending data.</p>
+        <p>In planning our high altitude balloons we found that we needed a method to send information back down to earth. 
+        This is necessary for recovering the payload and forgetting, in real time, information such as pictures, humidity, and altitude.
+        To achieve this we explored several methods of sending data.</p>
         <h3>GSM</h3>
-        <p>The most obvious first solution was to use the GSM network. Send up the balloon with a mobile phone to 'text' us back pictures and information.
+        <p>The most obvious first solution was to use the GSM network.
+        Send up the balloon with a mobile phone to 'text' us back pictures and information.
         This, however, on further investigation becomes a terrible way to get live information from a payload 30,000m in the sky.
         This is because the range of gsm low and we cannot guarantee that the areas the balloon floats into will be covered.
         This alongside it being a very boring way to do it caused us to explore other methods.</p>
