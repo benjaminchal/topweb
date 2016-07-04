@@ -1,4 +1,23 @@
-<?php function echo_start(){
+<?php function echo_start($num) {
+    $a = "";
+    $b = "";
+    $c = "";
+    $d = "";
+    $e = "";
+    switch($num){
+        case 1:
+            $a = "active";
+            break;
+        case 2:
+            $b = "active";
+            break;
+        case 3:
+            $c = "active";
+            break;
+        case 4:
+            $d = "active";
+            break;
+    }
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,13 +60,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">The Odin Project</a>
+          <a class="navbar-brand" href="index.html">The Odin Project</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li class="dropdown">
+            <li class="<?php echo $a; ?>"><a href="nav.php">Home</a></li>
+            <li  class="<?php echo $b; ?>"><a href="#about">About Us</a></li>
+            <li class="dropdown <?php echo $c; ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-I<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="I-radio.php">Radio Comunication</a></li>
@@ -72,7 +91,9 @@ function echo_end() {
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+        $('')
+    </script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>

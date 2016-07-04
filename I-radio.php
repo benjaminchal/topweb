@@ -1,5 +1,5 @@
 <?php require('php/include.php');
-echo_start();
+echo_start(3);
 ?>
     <!-- Begin page content -->
     <div class="container">
