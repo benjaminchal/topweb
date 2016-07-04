@@ -31,6 +31,7 @@ body {
 }
 body {
   color: #fff;
+  background-image: url("../images/background_space_purple.png");
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
