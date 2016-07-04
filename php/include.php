@@ -1,4 +1,4 @@
-<?php function echo_start($num) {
+<?php function echo_start($num, $title) {
     $a = "";
     $b = "";
     $c = "";
@@ -29,7 +29,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favcon.png">
 
-    <title>The Odin Project</title>
+    <title>The Odin Project - <?php echo $title; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">

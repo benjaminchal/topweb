@@ -1,5 +1,5 @@
 <?php require('php/include.php');
-echo_start(3);
+echo_start(3, "ODIN-I Communications");
 ?>
     <!-- Begin page content -->
     <div class="container">
