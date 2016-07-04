@@ -1,6 +1,5 @@
-
-
-<!DOCTYPE html>
+<?php function echo_start(){
+?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -51,7 +50,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-I<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="I-radio.html">Radio Comunication</a></li>
+                <li><a href="I-radio.php">Radio Comunication</a></li>
               </ul>
             </li>
           </ul>
@@ -59,14 +58,9 @@
       </div>
     </nav>
 
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="page-header">
-        <h1>Radio</h1>
-      </div>
-      <p class="lead">The radio communications are a vital part to any HAB launch. The issue is that OFCOM have limated amature radio licences to restrict the opperation of radios in the amature bands to <p>
-    </div>
-
+<?php } 
+function echo_end() {
+?>
     <footer class="footer">
       <div class="container">
         <p class="text-muted">To contact us please email <a href="mailto:ben@theodinproject.space">info@theodinproject.space</a></p>
@@ -84,5 +78,4 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
-
-
+<?php } ?>
