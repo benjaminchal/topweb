@@ -65,7 +65,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="<?php echo $a; ?>"><a href="nav.php">Home</a></li>
-            <li  class="<?php echo $b; ?>"><a href="#about">About Us</a></li>
+            <li  class="<?php echo $b; ?>"><a href="aboutus.php">About Us</a></li>
             <li class="dropdown <?php echo $c; ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-I<span class="caret"></span></a>
               <ul class="dropdown-menu">
