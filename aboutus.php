@@ -7,7 +7,10 @@ echo_start(2, "About Us");
             <h1>Who are we?</h1> </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="lead">The Odin Project is a student founded, student-led high altitude ballooning society. Our aim is, as you may have guessed, to launch and recover a high altitude balloon. This site is a documentation of our journey. We will strive to keep it up to date and keep you informed of all our flights and flight data.</p>
+                <p class="lead">The Odin Project is a student founded, student-led high altitude ballooning society.
+                Our aim is, as you may have guessed, to launch and recover a high altitude balloon.
+                This site is a documentation of our journey.
+                We will strive to keep it up to date and keep you informed of all our flights and flight data.</p>
             </div>
         </div>
         <div class="row flex">
@@ -16,7 +19,7 @@ echo_start(2, "About Us");
                     <div class="panel-heading">
                         <h3>Benjamin Chalmers</h3> </div>
                     <div class="panel-body">
-                        <p class="lead"><b>Founding member</b> and lead tecnical engineer.</p>
+                        <p class="lead"><b>Founding member</b> and lead engineer.</p>
                     </div>
                     <div class="panel-footer">
                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:ben@theodinproject.space">ben@theodinproject.space</a>
