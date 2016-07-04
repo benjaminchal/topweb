@@ -6,7 +6,18 @@ echo_start(1, "Home");
       <div class="page-header">
         <h1>The Goings On</h1>
       </div>
-      <p class="lead">The current progress is in the radio part of the payload for ODIN-I. To read more please <a href="I-radio.php">click here</a>. ODIN-I is a testing balloon. The launch is primaraly to test our weather models and should be compleated by the end of the summer.</p>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Starting ODIN-I</h3>
+          </div>
+          <div class="panel-body">
+            <p class="lead">The current progress is in the radio part of the payload for ODIN-I. To read more please <a href="I-radio.php">click here</a>. ODIN-I is a low-cost balloon to test our weather models and should be completed by the end of the summer.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 04/07/2016
+          </div>
+      </div>
+      
     </div>
 
 <?php echo_end(); ?>
