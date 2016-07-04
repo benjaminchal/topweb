@@ -28,7 +28,7 @@ echo_start(3, "ODIN-I Communications");
         They recommended the use of the 70cm ISM band.
         This is an unlicensed band used for 'industrial, scientific and medical' applications.
         Not only is this method legal but it is also far less expensive than an APRS beacon.
-        We decided to use the http://www.radiometrix.com/content/ntx2b Radiometrix NTX2B as our transmitter which, at the time of writing, cost us in the region of £21.</p>
+        We decided to use the <a href="http://www.radiometrix.com/content/ntx2b">Radiometrix NTX2B</a> as our transmitter which, at the time of writing, cost us in the region of £21.</p>
 
         <p>The NTX2B needed to be controlled by a microprocessor and at this point, we had a choice. The Arduino vs The Raspberry Pi.</p>
         <h3>Micro-processors</h3>
