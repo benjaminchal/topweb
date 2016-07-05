@@ -29,7 +29,7 @@ echo_start(2, "About Us");
             <div class="col-sm-12 col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3>Alexande Wykes</h3> </div>
+                        <h3>Alexander Wykes</h3> </div>
                     <div class="panel-body">
                         <p class="lead"><b>Founding member</b> and Operators Director.</p>
                     </div>
