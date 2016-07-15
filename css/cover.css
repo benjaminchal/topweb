@@ -18,7 +18,9 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
+.img{
+        width: 50%;
+}
 
 /*
  * Base structure
@@ -133,7 +135,6 @@ body {
 /*
  * Affix and center
  */
-
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {

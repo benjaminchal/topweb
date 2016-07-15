@@ -8,6 +8,17 @@ echo_start(1, "Home");
       </div>
       <div class="panel panel-default">
           <div class="panel-heading">
+              <h3 class="panel-title">Finished the RTTY transmitting for ODIN-I</h3>
+          </div>
+          <div class="panel-body">
+            <p class="lead">I have finished the RTTY transmitting driven by timer interrupt for the ODIN-I payload, now onto gathering inputs from sencors. <a href="I-radio.php">click here to read the full and compleated article</a>.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 15/07/2016
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
               <h3 class="panel-title">Starting ODIN-I</h3>
           </div>
           <div class="panel-body">
