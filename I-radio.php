@@ -79,7 +79,10 @@ void loop() {
         <div class="well text-center"><img src="https://s31.postimg.org/xobgj66sr/NTX2_B_wireing_diagramme.png" class="img"></div>
         
 
-        <p>Now we have built a circuit capable of giving us a high and a low frequency output we can get onto programming the Arduino to output RTTY.</p>
+        <p>Now we have built a circuit capable of giving us a high and a low frequency output we can get onto programming the Arduino to output RTTY.
+        Here is an output from the arduino radio (using fldigi):</p>
+        
+        <div class="well text-center"><img src="https://s31.postimg.org/v5pripauj/Spectra_View.png" width="100%"></div>
         
         <h3>RTTY CODE</h3>
         <p>RTTY works by alternating between high and low to transmit binary data.
@@ -117,7 +120,7 @@ volatile char *ptr = NULL;
 char currentbyte;
 int currentbitcount;
  
-volatile boolean sentence_needed;
+volatile boolean sentence_needed = true;
 int tx_counter = 10000;
  
 char send_datastring[102];
@@ -248,22 +251,24 @@ void loop()
 }
 
 uint16_t gps_CRC16_checksum (char *string) {
-    size_t i;
-    uint16_t crc;
-    uint8_t c;
+  size_t i;
+  uint16_t crc;
+  uint8_t c;
  
-    crc = 0xFFFF;
+  crc = 0xFFFF;
  
-    // Calculate checksum ignoring the first two $s
-    for (i = 2; i &#60; strlen(string); i++) {
-        c = string[i];
-        crc = _crc_xmodem_update (crc, c);
-    }
+  // Calculate checksum ignoring the first two $s
+  for (i = 2; i &#60; strlen(string); i++) {
+    c = string[i];
+    crc = _crc_xmodem_update (crc, c);
+  }
  
-    return crc;
+  return crc;
 }</pre>
+
+        <p>And here is the output in DL-fldigi:</p>
        
        
-       
+        <div class="well text-center"><img src="https://s32.postimg.org/cknstxxrp/TEST_CODE_RUNNING.png" width="100%"></div>
     </div>
 <?php echo_end(); ?>
