@@ -76,6 +76,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-I<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="I-radio.php">Radio Communications</a></li>
+                <li><a href="I-datalogging.php">Logging</a></li>
               </ul>
             </li>
           </ul>
