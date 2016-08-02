@@ -77,6 +77,7 @@
               <ul class="dropdown-menu">
                 <li><a href="I-radio.php">Radio Communications</a></li>
                 <li><a href="I-datalogging.php">Logging</a></li>
+                <li><a href="I-flightcomp.php">Flight Computer</a></li>
               </ul>
             </li>
           </ul>
