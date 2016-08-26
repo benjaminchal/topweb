@@ -11,6 +11,17 @@ echo_start(1, "Home");
               <h3 class="panel-title">Logging and recoding</h3>
           </div>
           <div class="panel-body">
+            <p class="lead">After AGES all of the stuff (namly the GPS module) arrived, now I can get on with making a fully working <a href="I-flightcomp.php">radio tracker</a>.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 01/08/2016
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Logging and recoding</h3>
+          </div>
+          <div class="panel-body">
             <p class="lead">The SD card reader/writer breakout board arrived!! <a href="I-datalogging.php">Here</a> is how I made it work.</p>
           </div>
           <div class="panel-footer">

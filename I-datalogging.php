@@ -30,7 +30,7 @@ echo_start(3, "ODIN-I Data");
         I have not included the circuit design here as I am planning to do a comprehensive one when I have finished the payload.
         The CS(Slave Select pin) is connected to pin 4, the MISO(Master Input, Slave Output) pin goes to pin 13, the MOSI(Master Output, Slave Input) pin goes to pin 11, the SCK(Serial ClocK) goes to pin 12, and the DHT11 S pin goes to pin 7.</p>
         
-<pre class="prettyprint ">
+<pre class="prettyprint">
 #include &lt;dht.h&gt;
 #include &lt;SPI.h&gt;
 #include &lt;SD.h&gt;
