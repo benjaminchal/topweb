@@ -8,8 +8,33 @@ echo_start(1, "Home");
       </div>
       <div class="panel panel-default">
           <div class="panel-heading">
-              <h3 class="panel-title">Logging and recoding</h3>
+              <h3 class="panel-title">Attempt 1</h3>
           </div>
+          
+          <div class="panel-body">
+            <p class="lead"> Worth a shot, but attempt 1 has been a no go due to the weather. <a href="I-message1.php">Click here</a> to learn more.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 26/08/2016
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Payload Design</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="lead"> Arrived back from holiday and have tested the <a href="I-flightcomp.php">radio tracker</a> by taking it to russia, see the attached CVS files. Now for <a href="I-payload.php">payload construction</a>.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 15/08/2016
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">Final Construction</h3>
+          </div>
+          
           <div class="panel-body">
             <p class="lead">After AGES all of the stuff (namly the GPS module) arrived, now I can get on with making a fully working <a href="I-flightcomp.php">radio tracker</a>.</p>
           </div>

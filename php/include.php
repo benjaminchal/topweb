@@ -71,13 +71,15 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="<?php echo $a; ?>"><a href="nav.php">Home</a></li>
-            <li  class="<?php echo $b; ?>"><a href="aboutus.php">About Us</a></li>
+            <!--<li  class="<?php echo $b; ?>"><a href="aboutus.php">About Us</a></li>-->
             <li class="dropdown <?php echo $c; ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-I<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="I-radio.php">Radio Communications</a></li>
                 <li><a href="I-datalogging.php">Logging</a></li>
                 <li><a href="I-flightcomp.php">Flight Computer</a></li>
+                <li><a href="I-payload.php">Payload Design</a></li>
+                <li><a href="I-message1.php">Unfortunate update</a></li>
               </ul>
             </li>
           </ul>

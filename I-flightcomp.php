@@ -1,10 +1,10 @@
 <?php require('php/include.php');
-echo_start(3, "ODIN-I Computor");
+echo_start(3, "ODIN-I computer");
 ?>
 
 <div class="container">
     <div class="page-header">
-        <h1>The flight computor</h1>
+        <h1>The flight computer</h1>
     </div>
     <h3>The hardware</h3>
     <p>
@@ -20,6 +20,11 @@ echo_start(3, "ODIN-I Computor");
         The SPI interface on the ATmega is used to allow for writing to an SD card. This allows for the creation of a detailed flight log if I can recover the payload.
     </p>
     <p>
+        To supply power I am connecting 2 1.5v AA batteries to a 5V step-up converter.
+        Then I am connecting the 5V out directly into the VCC and ground of the ATmega 328P breakout board.
+        Because I don't entirely trust the cheap step-up converters I have I connected two in parallel so that if one fails I will be ok.
+    </p>
+    <p>
         The reasons behind my specific hardware choices came down mostly to price.
         Initially, I was going to do my own circuit for the ATmega 328P but I discovered that I could get a tiny breakout board for less than the cost of the chip plus the components required (~£2). 
         The GPS module was the cheapest uBlox serial breakout board was ~£8. 
@@ -28,9 +33,7 @@ echo_start(3, "ODIN-I Computor");
         I purchased 2 DHT22 module for around £3 each but I broke one so I can now only measure the external temperature. 
         So for less than £40 I built the tracking system.
     </p>
-    <p>
         <div class="well text-center"><img src="https://s10.postimg.org/ojw9d7gih/asdfasdfrg.png" class="img"></div>
-    </p>
     <h3>The code</h3>
     <p>
         Coding this was a challenge. 
