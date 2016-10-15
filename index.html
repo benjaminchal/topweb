@@ -78,6 +78,27 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+        function extractDomain(url) {
+            var domain;
+            //find & remove protocol (http, ftp, etc.) and get domain
+            if (url.indexOf("://") > -1) {
+                domain = url.split('/')[2];
+            }
+            else {
+                domain = url.split('/')[0];
+            }
+
+            //find & remove port number
+            domain = domain.split(':')[0];
+            
+            return domain;
+        }
+        if (extractDomain(window.location.href).indexOf("benthehen") !== -1){
+            alert("benthehen.co.uk is currently pointing at the same webserver that hoasts theodinproject.space because this is my latest project. Please go to benja.minchalme.rs to find my personal website.");
+        }
+        
+    </script>
   </body>
 </html>
 
