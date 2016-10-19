@@ -53,15 +53,15 @@ echo_start(3, "ODIN-I computer");
     </p>
 <pre class="prettyprint">
 //Includes
-#include &lt;avr/pgmspace.h&rt;
-#include &lt;stdlib.h&rt;
-#include &lt;util/crc16.h&rt;
-#include &lt;avr/io.h&rt;
-#include &lt;avr/interrupt.h&rt;
-//#include &lt;dht.h&rt;
-#include &lt;SPI.h&rt;
-#include &lt;SD.h&rt;
-#include &lt;TinyGPS_UBX.h&rt;
+#include &lt;avr/pgmspace.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;util/crc16.h&gt;
+#include &lt;avr/io.h&gt;
+#include &lt;avr/interrupt.h&gt;
+//#include &lt;dht.h&gt;
+#include &lt;SPI.h&gt;
+#include &lt;SD.h&gt;
+#include &lt;TinyGPS_UBX.h&gt;
 TinyGPS tGPS;
 
 
@@ -326,7 +326,7 @@ TinyGPS tGPS;
     while (1) {
 
       // Test for success
-      if (ackByteID &rt; 9) {
+      if (ackByteID &gt; 9) {
         // All packets in order!
         //Serial.println(" (SUCCESS!)");
         return true;
