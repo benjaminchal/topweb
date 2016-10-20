@@ -8,6 +8,21 @@ echo_start(1, "Home");
       </div>
       <div class="panel panel-default">
           <div class="panel-heading">
+              <h3 class="panel-title">ODIN-II</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="lead"> After ODIN-I I have learnt more about HABs. 
+	    Instead of attempting a relaunch of this prototype payload. 
+	    I have decided to do a compleat redesign. 
+	    This time I plan on fabricating my own PCB and using LoRa radio modules, so onto <a href="II-plan.php">ODIN-II</a>.</p>
+          </div>
+          <div class="panel-footer">
+              Benjamin Chalmers, 20/10/2016
+          </div>
+      </div>
+       <div class="panel panel-default">
+          <div class="panel-heading">
               <h3 class="panel-title">Attempt 1</h3>
           </div>
           

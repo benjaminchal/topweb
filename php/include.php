@@ -82,6 +82,12 @@
                 <li><a href="I-message1.php">Unfortunate update</a></li>
               </ul>
             </li>
+	    <li class="dropdown <?php echo $d; ?>">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ODIN-II<span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+	        <li><a href="II-plan.php">The Plan</a></li>
+	      </ul>
+	    </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
